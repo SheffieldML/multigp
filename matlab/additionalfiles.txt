@@ -1,0 +1,11 @@
+# These are files that should be packaged for the multigp software
+dir: html
+~/mlprojects/multigp/html/index.html
+~/mlprojects/multigp/html/Toy_predictionFTC2.png
+~/mlprojects/multigp/html/Toy_predictionFTC5.png
+~/mlprojects/multigp/html/toyPredictionPITC2.png
+~/mlprojects/multigp/html/toyPredictionPITC5.png
+~/mlprojects/multigp/html/toyPredictionFITC2.png
+~/mlprojects/multigp/html/toyPredictionFITC5.png
+~/mlprojects/multigp/html/figureCd.png
+~/mlprojects/multigp/html/figureCu.png
