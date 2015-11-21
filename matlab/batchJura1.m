@@ -38,7 +38,7 @@ maerror = zeros(10,4);
 
 for q =1:4
     for k = 1:10,
-        data = multigpLoadData([dataSetName '_' file{q}]);
+        data = mapLoadData([dataSetName '_' file{q}]);
         data.nin = 1;  % Number of latent functions
         missingData = cell(data.nout,1);
         [total_t(k,q), maerror(k,q)] = batch_demJura(options, data, ntrainX, ntrainX2, approx, missingData, iters);

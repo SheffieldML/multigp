@@ -39,7 +39,7 @@ for q =1:4
         fprintf('Experiment: %s Cross-Validation: %f\n',file{q},k);
         rand('seed',(q+k+2)*10^6);
         randn('seed',(q+k+2)*10^6);
-        data = multigpLoadData([dataSetName '_' file{q}]);
+        data = mapLoadData([dataSetName '_' file{q}]);
         data.nin = 1;  % Number of latent functions
         data.nout = 1;
         data.Xtrain = data.Xtrain(1);
